@@ -22,6 +22,8 @@ Supposedly, PX is - or will be - a complete replacement for (yet another Plotly 
   - Express <br>
     - **Plotly Express using Gapminder Data** - A notebook that follows the first part of the [Plotly Express and Dash](https://www.youtube.com/watch?v=DIk-y41djCQ) webinar by Nicolas Kruchten of Plotly. So far, this has been the absolute best thing I've seen, by anyone, on any Plotly library. *Personally, I'd start here.*<br><br>
 
+    - **Plotly Express on Sunspots data**
+    This is recreating the display using PX instead of seaborn.
 
 # Notes
 
