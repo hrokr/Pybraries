@@ -43,6 +43,7 @@ The rate of adoption is a function of the ease of use and usefulness so it only 
     Or, at a minimum, this?
         {label: "2015", value: 2015}
   2. Semantic use of white space like the rest of Python? Yeah, screw that.
+  3. This isn't so much about Dash as Jupyter Dash or maybe Node. Shortly after I installed Jupyter Dash (and the requisite node) Every went to hell. Basically this seems fragile somehow. Notebooks, even straight up PX only code, will just freeze. Complete, hope-you-saved-recently-'cause-you-gonna-lose-all-that freeze.
 
 <br>
 
