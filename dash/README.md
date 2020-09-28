@@ -20,10 +20,10 @@ Supposedly, PX is - or will be - a complete replacement for (yet another Plotly 
    - **Gapminder** - A Jupyter Lab (don't try to run this as a notebook, it does't work well) that follows the second part of the [Plotly Express and Dash](https://www.youtube.com/watch?v=DIk-y41djCQ) tutorial.
  
   - Express <br>
-    - **Plotly Express using Gapminder Data** - A notebook that follows the first part of the [Plotly Express and Dash](https://www.youtube.com/watch?v=DIk-y41djCQ) webinar by Nicolas Kruchten of Plotly. So far, this has been the absolute best thing I've seen, by anyone, on any Plotly library. *Personally, I'd start here.*<br><br>
-
+    - **Plotly Express using Gapminder Data** - A notebook that follows the first part of the [Plotly Express and Dash](https://www.youtube.com/watch?v=DIk-y41djCQ) webinar by Nicolas Kruchten of Plotly. So far, this has been the absolute best thing I've seen, by anyone, on any Plotly library. *Personally, I'd start here.*<br>
     - **Plotly Express on Sunspots data**
     This is recreating the display using PX instead of seaborn.
+    - **Plotly Express on Iranian census data** Plotly includes a certain set of maps for others you need to use something like MapBox. This is mostly the MapBox API to get a choropleth for country that isn't on their list.
 
 # Notes
 
