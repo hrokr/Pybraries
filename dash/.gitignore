@@ -6,9 +6,6 @@
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# For now. I can add this later if desired.
-*.ipynb
-
 # Environments
 .env
 .venv
