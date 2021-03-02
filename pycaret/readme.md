@@ -1,0 +1,1 @@
+Pycaret is a low-code machine learning library. I see that as a double edged sword. If you know what is being done for you, it really speeds things up. If, on the other hand, you don't and was the sort of kid who responded with "that's what the computer/calculator/register said",then this should give you unparralled power to make all sorts of bad inferences.
