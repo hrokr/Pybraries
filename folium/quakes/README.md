@@ -22,4 +22,51 @@ Jupyter notebook that pulls the JSON data from USGS of earthquakes greater than 
 - [ ] Twillio integration
   - [ ] Learn Twillio API
 - [ ] Deploy and seek feedback
+<br><br><br>
+
+
+# On to the data
+If you take some time to delve into the data, you're likely to run into some of the same questions I had. Namely, what do some of the values mean? Is a Tsunami Event Validity of 1 better or worse, more or less valid, or ... what than a Tsunami Event with a validity of 4? For the purposes of completeness, here is a legend for select fields along with commentary:
+<br><br>
+### <u>Tsunami Event Validity (Valid values: -1 to 4)</u>
+  - -1	erroneous entry
+  - 0	event that only caused a seiche or disturbance in an inland river
+  - 1	very doubtful tsunami
+  - 2	questionable tsunami
+  - 3	probable tsunami
+  - 4	definite tsunami
+
+<center><b>Scores less than 3 will be dropped </b> </center>
+<br><br>
+
+### <u>Deaths from the Tsunami and the Source Event</u>
+
+When a description was found in the historical literature instead of an actual number of deaths, this value was coded and listed in the Deaths column. If the actual number of deaths was listed, a descriptor was also added for search purposes.
+  - 0	None
+  - 1	Few (~1 to 50 deaths)
+  - 2	Some (~51 to 100 deaths)
+  - 3	Many (~101 to 1000 deaths)
+  - 4	Very many (over 1000 deaths)
+<br><br>
+### <u>Tsunami Cause Code:</u> <br>
+Valid values: 0 to 11
+ - 0	Unknown
+ - 1	Earthquake
+ - 2	Questionable Earthquake
+ - 3	Earthquake and Landslide
+ - 4	Volcano and Earthquake
+ - 5	Volcano, Earthquake, and Landslide
+ - 6	Volcano
+ - 7	Volcano and Landslide
+ - 8	Landslide
+ - 9	Meteorological
+ - 10	Explosion
+ - 11	Astronomical Tide
+<br><br>
+
+
+
+
+
+
 
