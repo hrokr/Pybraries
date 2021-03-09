@@ -26,7 +26,7 @@ Jupyter notebook that pulls the JSON data from USGS of earthquakes greater than 
 
 
 # On to the data
-If you take some time to delve into the data, you're likely to run into some of the same questions I had. Namely, what do some of the values mean? Is a Tsunami Event Validity of 1 better or worse, more or less valid, or ... what than a Tsunami Event with a validity of 4? For the purposes of completeness, here is a legend for select fields along with commentary:
+If you take some time to delve into the data, you're likely to wonder what do some of the values mean. Is a Tsunami Event Validity of 1 better or worse, more or less valid, or ... what than a Tsunami Event with a validity of 4? For the purposes of completeness, here is a legend for select fields along with commentary:
 <br><br>
 ### <u>Tsunami Event Validity (Valid values: -1 to 4)</u>
   - -1	erroneous entry
@@ -36,7 +36,7 @@ If you take some time to delve into the data, you're likely to run into some of 
   - 3	probable tsunami
   - 4	definite tsunami
 
-<center><b>Scores less than 3 will be dropped </b> </center>
+*Scores less than 4 will be dropped. Originally, this was to be scores less than 3 however some of the other dropped fields had the only rows with probable tsunami* 
 <br><br>
 
 ### <u>Deaths from the Tsunami and the Source Event</u>
@@ -50,18 +50,20 @@ When a description was found in the historical literature instead of an actual n
 <br><br>
 ### <u>Tsunami Cause Code:</u> <br>
 Valid values: 0 to 11
- - 0	Unknown
- - 1	Earthquake
- - 2	Questionable Earthquake
- - 3	Earthquake and Landslide
- - 4	Volcano and Earthquake
- - 5	Volcano, Earthquake, and Landslide
- - 6	Volcano
- - 7	Volcano and Landslide
- - 8	Landslide
- - 9	Meteorological
- - 10	Explosion
- - 11	Astronomical Tide
+ - 0  - 	Unknown
+ - 1  - 	Earthquake
+ - 2  - 	Questionable Earthquake
+ - 3  - 	Earthquake and Landslide
+ - 4  - 	Volcano and Earthquake
+ - 5  - 	Volcano, Earthquake, and Landslide
+ - 6  - 	Volcano
+ - 7  - 	Volcano and Landslide
+ - 8  - 	Landslide
+ - 9  - 	Meteorological
+ - 10 - 	Explosion
+ - 11 - 	Astronomical Tide
+
+ Oddly enough, the only codes present are 1, 3, and 4 which is stange because we tend to think of earthquakes (#2) causing them.
 <br><br>
 
 
