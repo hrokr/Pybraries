@@ -12,7 +12,8 @@ I want to take this in a somewhat different direction. In part this is because I
 
 Jupyter notebook that pulls the JSON data from USGS of earthquakes greater than magnitude 2.5 over the last day. This is displayed using Folium because I wanted to recreate as close as I could the USGS map which is done in Leaflet.JS, which Folium is based on. It takes about 5 seconds to pull the data, process it and have it display.
 
-This is followed up with the data munging of tsunami data. 
+This is followed up with the data munging of tsunami data.
+
 
 
 <br><br><br>
