@@ -6,7 +6,7 @@ To make things worse, there isn't really all that much out there to help you lea
 
 You might wonder what's there to learn in the first place aside from making a mess of the way things look.
 
-Well, one of the big things is the MVC. Which is fairly common for web development but since web development isn't Python strong suit, most Python programmers aren't really familiar with it. I'm certainly not. Fortunately, the Plotly folks give it almost no attention so you get to wander around not knowing what questions to even ask.
+Well, one of the big things is the MVC. Which is fairly common for web development but since web development isn't Python's strong suit, most Python programmers aren't really familiar with it. I'm certainly not. Fortunately, the Plotly folks give it almost no attention so you get to wander around not knowing what questions to even ask.
 <br> <br>
 
 **Plotly Express (PX), on the other hand, is incredible.** It's both easy to use and pretty powerful. In just a few lines of code you can make some really nice graphs and charts.
@@ -27,7 +27,7 @@ Supposedly, PX is - or will be - a complete replacement for (yet another Plotly 
 
 # Notes
 
-A couple of years back I attended a talk by, I think, a Node core developer. He said there is a saying that you only get beginner's eyes once, meaning that once you really understand something, you typically don't remember the useless part of how and why you were confused about something. And that's why you should contribute to Open Source libraries.
+A couple of years back I attended a talk by, I think, a Node core developer. He said there is a saying that *you only get beginner's eyes once*, meaning that once you really understand something, you typically don't remember the useless part and dead ends along the way to your understanding, nor why you were confused about something. And that's why you should contribute to Open Source libraries.
 
 I'm writing this down for that reason. But I would also add that saying can be true in more than one way. You can make something that is confusing and tough to use and beginners will just pass on it. That beginner might not be a new developer either, they might just decide a potentially interesting and useful new technology doesn't stack up well against what they already know and so they pass on it.
 
