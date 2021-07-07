@@ -11,7 +11,7 @@ Well, one of the big things is the MVC. Which is fairly common for web developme
 
 **Plotly Express (PX), on the other hand, is incredible.** It's both easy to use and pretty powerful. In just a few lines of code you can make some really nice graphs and charts.
 
-Supposedly, PX is - or will be - a complete replacement for (yet another Plotly thing) Graph Objects(GO). But that doesn't come from Plotly, but a dev on YouTube so I find it somewhat hard to believe. I think it's more like PX is going to be the 95% solution with GO for when you need something really custom.Considering the speed, ease and end results compared with Matplotlib, I think it's worth the time. It may not be as flexible as Matplotlib (e.g., you're not going to be able to make an XKCD-like graph) but it looks much better out of the box and, again, it's faster to get something done.
+Supposedly, PX is - or will be - a complete replacement for (yet another Plotly thing) Graph Objects(GO). But that doesn't come from Plotly, but a dev on YouTube so I find it somewhat hard to believe. I think it's more like PX is going to be the 95% solution with GO for when you need something really custom.Considering the speed, ease and end results compared with Matplotlib, I think it's worth the time. It may not be as flexible as Matplotlib (e.g., you're not going to be able to make an [XKCD-like graph](https://matplotlib.org/stable/gallery/showcase/xkcd.html#sphx-glr-gallery-showcase-xkcd-py) but it looks much better out of the box and, again, it's faster to get something done.
 <br> <br>
 # Projects in this repo:
  - Dash <br>
